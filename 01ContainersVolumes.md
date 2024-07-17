@@ -8,10 +8,14 @@ docker volume inspect myvol
 docker volume ls
 
 # run a CONTAINER with a volume
-docker run -d --name devtest -v myvol:/app loginpage:latest
+docker run -d --name voltest -v myvol:/app loginpage:latest
 
 # run a CONTAINER with a local folder
-docker run -d --name devtest -v d:/test:/app loginpage:latest
+docker run -d --name voltest -v d:/test:/app loginpage:latest
 
 # inspect the container
-docker inspect devtest
+docker inspect 
+
+# stop and remove container
+docker stop voltest
+docker rm voltest
