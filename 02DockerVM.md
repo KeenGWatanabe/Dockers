@@ -16,5 +16,10 @@ docker run -it -u="root" loginpage /bin/sh
 
 # install apps in container
 apk update
+apk -e search vim
+apk info vim
 
 # install nano or vim 
+apk add vim
+
+
