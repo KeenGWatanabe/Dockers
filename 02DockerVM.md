@@ -22,4 +22,10 @@ apk info vim
 # install nano or vim 
 apk add vim
 
+# create text file in vim
+vim vimtest.txt
+
+# type i for insert, "hello volume", :wq to save file
+cat vimtest.txt
+
 
