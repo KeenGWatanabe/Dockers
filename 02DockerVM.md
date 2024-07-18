@@ -28,4 +28,7 @@ vim vimtest.txt
 # type i for insert, "hello volume", :wq to save file
 cat vimtest.txt
 
+# type exit to quit instance
+exit
+
 
